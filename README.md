@@ -1,7 +1,7 @@
 # Coin_flip_app
-🪙 Coin Flip App
+🪙 Coin Flip App (AI Driven)
 
-A modern and interactive Coin Flip web application built using HTML, CSS, and JavaScript.
+A modern and interactive Coin Flip web application built using HTML, CSS, and JavaScript with the help of Antigravity.
 The app simulates a real coin toss with smooth 3D flip animations and keeps track of Heads and Tails results.
 
 🚀 Features
