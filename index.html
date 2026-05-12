@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heads or Tails</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Heads or Tails</h1>
+        
+        <div class="stats">
+            <div class="stat-box">
+                <span class="label">Heads</span>
+                <span class="value" id="heads-count">0</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Tails</span>
+                <span class="value" id="tails-count">0</span>
+            </div>
+        </div>
+
+        <div class="coin-scene">
+            <div class="coin" id="coin">
+                <div class="face heads">
+                    <div class="inner-circle">H</div>
+                </div>
+                <div class="face tails">
+                    <div class="inner-circle">T</div>
+                </div>
+            </div>
+        </div>
+
+        <p class="result-text" id="result-text">Ready to flip!</p>
+
+        <div class="buttons">
+            <button id="flip-btn">Flip Coin</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
